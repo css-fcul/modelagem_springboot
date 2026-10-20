@@ -97,7 +97,7 @@ public class CursoService {
         return null; // TODO
     }
     
-    private int getNumeroDeInscritos(Curso curso) {
+    private int getNumeroInscricoes(Curso curso) {
         // Lógica para contar quantos alunos estão inscritos.
         return 0; // TODO
     }
@@ -131,6 +131,6 @@ Use uma ferramenta com interface gráfica, como o **DBeaver**, para inspecionar 
 
 *   **Host:** `localhost`
 *   **Porta:** `5432`
-*   **Base de Dados:** `postgres`
-*   **Utilizador:** `user`
-*   **Palavra-passe:** `password`
+*   **Base de Dados:** `testdb`
+*   **Utilizador:** `postgres`
+*   **Palavra-passe:** `admin`
